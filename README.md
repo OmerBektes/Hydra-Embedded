@@ -59,7 +59,7 @@ First of all, you need to setup the Tuya platform before doing anything. Here ho
 - Afterwards, it will direct us to development page. If you only see the functions, scroll up to most top. Here you can see many different menus like function interaction, device interaction and hardware devolopment. 
 - Next, we need to decide control panel of the app. Click **"Device Interaction"** and then at the panel control choose **"All-in One Panel"** as your panel. If you want, you can create your own panel. This completes our app ui and you can test it with Tuya Smart app via QR code. But dont forget we havent done the product yet so its just a visual representation.
 - Now, we can pass to **"Hardware Development"**. In this part we will create our source and library files that are need to code our microcontroller. Click and go to page, select "MCU SDK" as  selected cloud access mode. Then it wants us to select cloud access hardware. We choosed **"WBR3 Wi-fi Bluetooth Module"** but if you want to use an another Tuya communication module module, you can select it in here.  Later, if provides you the files that you need to download. You have to download only **"MCU SDK"** files to complete this project but if you want to look at other you can download them too. 
-![Needed Codes](https://photos.app.goo.gl/gknreDPt6EcK8WF66)
+![Needed Codes](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/4.jpeg)
 
 After these steps, you are pretty much done with Tuya IoT platform. After you complete the project you can comeback to platform and complete the requirements to publish the product.
 
