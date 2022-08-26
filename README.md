@@ -16,7 +16,7 @@ In this project, we started to reverse engineering Hydra to find out electronica
 
 As we mentioned above, the goal of this project is not making the exact same protype of Hydra but making a simplified version of it. The reason for that are education purposes. Moreover, we will not make any mechanical mechanism or design of it.  Its expected to learn how a embaded system works in such devices and being able to communicate smart devices each other properly. Therefore we only built a system that can transfer temperature data to app and get some commands from app.  
 
-![Hydra made by Bllicra](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/1.jpeg) ![Prototype made by us](https://photos.app.goo.gl/fMEzrB1zA3G8A78v7)
+![Hydra made by Bllicra](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/8.jpeg) ![Prototype made by us](https://photos.app.goo.gl/fMEzrB1zA3G8A78v7)
 
 # Reqiurements
 
