@@ -52,7 +52,7 @@ First of all, you need to setup the Tuya platform before doing anything. Here ho
 - After you sign in, you can see many different features that is provided by Tuya. We will only deal with product development. Therefore, scroll a bit in the page and you can see the developer console. Select smart product development and create a new one.
 ![Developer Console](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/7.jpeg)
 - Then, at select product part, choose "Small Home Appliances" at the standart category. Scroll down until you see **"Animals & Plants"**  menu and then choose **"Pet Fountain"** as product.
-![Product](https://prnt.sc/S2y3UTnPErgR)
+![Product](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/6.jpeg)
 - After that, it wants us to decide smart mode of project. We will choose **"TuyaOS"** and as solution we only have **"Pet Water Feeder"**. Then complete your product informations. You must choose **"Wifi-Bluetooth"** as your protocol. 
 -  Then, it wants us to choose functions that will be used this product. Functions are basically the features that you can see and control in the app. You can choose all of them by clicking all button and then click okay to complete this part.
 ![Functions](https://prnt.sc/4gn626EPeWNO)
