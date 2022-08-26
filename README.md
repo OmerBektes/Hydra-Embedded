@@ -50,7 +50,7 @@ You might ask what is exactly Tuya is? Tuya is global IoT devolopment platform s
 First of all, you need to setup the Tuya platform before doing anything. Here how you can setup your product development in Tuya:
 - Go to Tuya IoT Platform Page from [here.](https://auth.tuya.com/?from=https://iot.tuya.com/) Sign up and create an account for yourself. 
 - After you sign in, you can see many different features that is provided by Tuya. We will only deal with product development. Therefore, scroll a bit in the page and you can see the developer console. Select smart product development and create a new one.
-![Developer Console](https://photos.app.goo.gl/5gUNtXUGLK57TxEK8)
+![Developer Console](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/7.jpeg)
 - Then, at select product part, choose "Small Home Appliances" at the standart category. Scroll down until you see **"Animals & Plants"**  menu and then choose **"Pet Fountain"** as product.
 ![Product](https://prnt.sc/S2y3UTnPErgR)
 - After that, it wants us to decide smart mode of project. We will choose **"TuyaOS"** and as solution we only have **"Pet Water Feeder"**. Then complete your product informations. You must choose **"Wifi-Bluetooth"** as your protocol. 
