@@ -72,7 +72,8 @@ Thankfully, we dont have to code any protocol to connect them each other. But ag
 
 Now, you can start to code your MCU:
 - First, open your STM32 Cube IDE create a new STM32 project from file segment.  Then click board segment, write your own nucleo boards name, write its type choose it at below and click next.
- ![Selecting Nucleo Board](https://photos.app.goo.gl/xHwghZhkhctndrK58)
+ ![Selecting Nucleo Board](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/2.jpeg)
+ 
 - Then, give a name to your project. Dont forget to choose **"C"** as your targeted language. Dont change other options, click finnish. You dont have to	 initialize all peripherals with their defult mode but you need to know which pin your LD2 uses in case if you need it later on. 
 - After project is built, clear you all pinouts. Go to timers part, click **"TIM16"**, then enable it via clicking **"Enable"** box, at the configuration part, set the **"Prescaler value"** as "3200-1" and **"Counter Period"** as "65536-1". Dont forget to enable **"TIM16 global interrupt"** in the NVIC settings.  
 ![Timer Settings](https://photos.app.goo.gl/aWLcTsTscxtBWGtN9)  
