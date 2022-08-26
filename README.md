@@ -66,7 +66,8 @@ After these steps, you are pretty much done with Tuya IoT platform. After you co
 Now, we can dive into communication between MCU and the module. As we mentioned before, you need to download STM32 Cube IDE to complete next parts and a serial monitor program to see does the communication or not. Also you can read the [Tuya Page](https://developer.tuya.com/en/docs/iot/overview-of-migrating-tuyas-mcu-sdk?id=K9hhi0xr5vll9) and [Serial Communication Page of Tuya](https://developer.tuya.com/en/docs/iot/tuya-cloud-universal-serial-port-access-protocol?id=K9hhi0xxtn9cb) for this project, if you want to complete this project by yourself. 
 
 The serial communication protocol between MCU and Tuya modules mostly already ready in the "MCU SDK" files we downloaded before. However we still need to undestand how it works and need to spesify the communication commands or function for our microcontroller. After that we can transfer any data we want and use any transfered data from module. Lets start with how Tuya module and MCU communicates with each other. Tuya module uses UART communication for it and works synchronously. Generally, one command is sent by one side and received by other side. One sides send a command and then waits for a response from other side. If sender does not receive a correct response within a spcific time period, the transmission times out. You can see it in the following figure.
-![Serial Communication](https://photos.app.goo.gl/rTvqYAmkp2mhJbNE6) 
+![Serial Communication](https://github.com/OmerBektes/Hydra-Embedded/blob/master/Images/3.jpeg) 
+
 Thankfully, we dont have to code any protocol to connect them each other. But again If you want to learn more about this process you can go and look the serial communication protocol page of Tuya. All communication process is already at   the files we downloaded like mcu_api.c or wifi.h. 
 
 Now, you can start to code your MCU:
